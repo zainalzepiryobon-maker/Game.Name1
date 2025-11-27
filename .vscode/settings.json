@@ -1,0 +1,10 @@
+{
+    "accessibility.underlineLinks": true,
+    "liveServer.settings.port": 5502,
+    "editor.autoIndentOnPaste": true,
+    "editor.fastScrollSensitivity": 5,
+    "editor.foldingImportsByDefault": false,
+    "editor.mouseWheelZoom": true,
+    "editor.selectionHighlightMultiline": true,
+    "editor.smoothScrolling": false
+}
