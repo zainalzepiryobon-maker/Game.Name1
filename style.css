@@ -1,76 +1,59 @@
 
 
 body{
-    background-color: aquamarine;
-    margin-top: 100px;
-    margin-left: 120px;
+    background-color: rgb(100, 100, 100);
+    display: flex;
+    justify-content: center;
+    margin-top: 35vh;
 }
 
-.box{
-    border: 2px solid;
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    transform:
-    rotatez(-45deg);
+button{
+    font-size: 25px;
+    width: 150px;
+    height: 75px;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+}
+button:hover{
+    background-color: rgb(200, 200, 200);
+    font-weight: bold;
+    width: 155px;
+    height: 80px;
 }
 
-#box1{
-    animation-name: box1anim;
-    animation-delay: 1s;
-    animation-duration: 2s;
-    animation-timing-function: ease-out;
+#homeBtn{
+    animation-name: anim1;
+    animation-duration: 1s;
 }
-@keyframes box1anim{
-    0%{transform:
-        translate(-200px, -200px)
-        rotateZ(180deg);}
-    50%{transform:
-        translate(200px, 200px)
-        rotateZ(90deg);}
+@keyframes anim1{
+    from{transform: translate(-50px, -50px);
+        opacity: 0%;}
 }
 
-#box2{
-    animation-name: box2anim;
-    animation-delay: 2s;
-    animation-duration: 2s;
-    animation-timing-function: ease-out;
+#storeBtn{
+    animation-name: anim2;
+    animation-duration: 1s;
 }
-@keyframes box2anim{
-    0%{transform:
-        translate(200px, -200px)
-        rotateZ(180deg);}
-    50%{transform:
-        translate(-200px, 200px)
-        rotateZ(90deg);}
+@keyframes anim2{
+    from{transform: translate(50px, -50px);
+        opacity: 0%;}
 }
 
-#box3{
-    animation-name: box3anim;
-    animation-delay: 3s;
-    animation-duration: 2s;
-    animation-timing-function: ease-out;
+#guildBtn{
+    animation-name: anim3;
+    animation-duration: 1s;
 }
-@keyframes box3anim{
-    0%{transform:
-        translate(-200px, 200px)
-        rotateZ(180deg);}
-    50%{transform:
-        translate(200px, -200px)
-        rotateZ(90deg);}
+@keyframes anim3{
+    from{transform: translate(-50px, 50px);
+        opacity: 0%;}
 }
 
-#box4{
-    animation-name: box4anim;
-    animation-delay: 4s;
-    animation-duration: 2s;
-    animation-timing-function: ease-out;
+#leaveBtn{
+    animation-name: anim4;
+    animation-duration: 1s;
 }
-@keyframes box4anim{
-    0%{transform:
-        translate(200px, 200px)
-        rotateZ(180deg);}
-    50%{transform:
-        translate(-200px, -200px)
-        rotateZ(90deg);}
+@keyframes anim4{
+    from{transform: translate(50px, 50px);
+        opacity: 0%;}
 }
